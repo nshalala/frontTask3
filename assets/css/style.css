@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/* section css start */
+section {
+    background-color: #e7f1f8;
+    text-align: center;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+section h1 {
+    text-transform: uppercase;
+    font: bold 30px 'Roboto', sans-serif;
+    color: #3c4761;
+}
+section hr {
+    width: 90px;
+    height: 4px;
+    background-color: #c8d9e5;
+    border: none;
+    margin: 15px auto;
+}
+section p {
+    font: normal 14px 'Roboto', sans-serif;
+    color: #3c4761;
+}
+section .members article {
+    display: inline-block;
+    width: 24%;
+}
+section .members article img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 40px 0 20px;
+}
+section .members article h3 {
+    font: bold 16px 'Roboto', sans-serif; 
+    color: #3c4761;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+section .members article .duty {
+    font: normal 12px 'Roboto', sans-serif; 
+    color: #48c1e9;
+    text-transform: capitalize;
+}
+section .members article p {
+    font: normal 12px 'Roboto', sans-serif; 
+    color: #47526b;
+    padding: 0 8px;
+    margin: 15px 0;
+}
+section .members article .icons a {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: #bdd1df;
+}
+section .members article .icons i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* section css end */
